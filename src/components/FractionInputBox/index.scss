@@ -1,0 +1,37 @@
+.fraction-input {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 6%;
+  padding: 0.5em;
+  margin-bottom: 2em;
+  border-bottom: 2px solid black;
+  &--textboxes {
+    display: flex;
+    height: 100%;
+  }
+
+  section {
+    margin: 5px;
+    padding: 0px;
+    font-size: 30px;
+  }
+
+  input {
+    margin: 5px;
+    height: fit-content;
+    font-size: 1rem;
+    display: inline-flex;
+    max-width: fit-content;
+    border-radius: 5px;
+    background-color: rgb(216, 241, 251);
+  }
+
+  button {
+    height: 30px;
+    align-self: center;
+    background-color: rgb(216, 241, 251);
+    border-radius: 5px;
+    padding: 0.5em;
+  }
+}

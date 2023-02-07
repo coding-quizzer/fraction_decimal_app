@@ -1,0 +1,28 @@
+.decimal-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: space-between;
+  background-color: blue;
+  color: white;
+  padding: 0.75em;
+  border-radius: 1em;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &--label {
+    display: flex;
+
+    section {
+      padding: 5px;
+      margin: 0;
+    }
+  }
+
+  &--digit-limit {
+    display: flex;
+  }
+}

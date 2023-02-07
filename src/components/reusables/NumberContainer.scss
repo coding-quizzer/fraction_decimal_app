@@ -1,0 +1,15 @@
+.number-container {
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 10%;
+  // width: 1em;
+  background-color: hsl(197, 81%, 92%);
+  margin: 5px;
+  padding: 0.2em;
+
+  color: black;
+  &:hover {
+    cursor: default;
+  }
+}

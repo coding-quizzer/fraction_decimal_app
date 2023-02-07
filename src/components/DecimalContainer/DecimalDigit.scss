@@ -1,0 +1,51 @@
+.decimal-digit {
+  font-size: 20px;
+  color: black;
+  &:hover {
+    background-color: rgb(200, 225, 235);
+    cursor: default;
+  }
+
+  &--popper {
+    // display: none;
+    display: inline-flex;
+    height: 2.3em;
+    padding: 0.5em;
+    background: black;
+    color: white;
+    text-align: center;
+    z-index: 1;
+
+    &-arrow {
+      position: absolute;
+      background: inherit;
+      visibility: hidden;
+      // transform: translate(-2.1px, 0px) !important;
+
+      width: 10px;
+      height: 10px;
+      top: -6px;
+      transform: translateX(-100%);
+
+      &::before {
+        visibility: visible;
+        position: absolute;
+        right: -150%;
+        width: 15px;
+        height: 15px;
+        content: "";
+        transform: rotate(45deg);
+        background: inherit;
+      }
+    }
+
+    &[data-show] {
+      display: inline-flex;
+      height: 2.3em;
+      padding: 0.5em;
+      background: black;
+      color: white;
+      text-align: center;
+    }
+  }
+}

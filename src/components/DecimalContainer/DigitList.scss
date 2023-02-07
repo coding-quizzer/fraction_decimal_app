@@ -1,0 +1,15 @@
+.decimal {
+  display: inline-flex;
+  color: black;
+  background-color: white;
+
+  section {
+    font-size: 20px;
+    margin: 0;
+    padding: 5px;
+    align-self: flex-end;
+  }
+  .number-container {
+    font-size: 20px;
+  }
+}
