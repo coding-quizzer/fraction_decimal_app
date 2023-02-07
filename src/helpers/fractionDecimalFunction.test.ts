@@ -4,7 +4,6 @@ import {
   DecimalExpansionObject,
   getUniqueNumeratorDecimalObjects,
   getUniqueDecimals,
-  RepeatingDecimalObject,
 } from "./fractionDecimalFunctions";
 
 describe(generateDecimalExpansion, () => {
@@ -41,7 +40,6 @@ describe(generateDecimalExpansion, () => {
 });
 
 describe(convertFractionToRepeatingDecimal, () => {
-  const decimalExpansion = {};
   it("Returns an array of decimal objects representing 0.25 when for the decimal expansion object representing 1/4", () => {
     expect(convertFractionToRepeatingDecimal([1, 4])).toStrictEqual({
       nonRepeatingDigits: [
