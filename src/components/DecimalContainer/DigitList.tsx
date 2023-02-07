@@ -1,7 +1,7 @@
 import {
   DecimalPlace,
   RepeatingDecimalObject,
-} from "../../../../fractionDecimalFunctions";
+} from "../../helpers/fractionDecimalFunctions";
 import DecimalDigit from "./DecimalDigit";
 import "./DigitList.scss";
 import NumberContainer from "../reusables/NumberContainer";
