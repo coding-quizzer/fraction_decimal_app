@@ -2,7 +2,7 @@ import { useFloating, useHover, useInteractions } from "@floating-ui/react";
 import { useState } from "react";
 import "./footer.scss";
 const Footer = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const { x, y, strategy, refs, context } = useFloating({
     open: isOpen,
     onOpenChange: setIsOpen,
