@@ -24,4 +24,4 @@ When I calculate the decimal expansion for 12/13, the expansion continues from w
 
 ## Developments
 
-I hope to evntually support endless scrolling, so that the user can scroll arbitrarilly far along the fraction without needing a limit as it is required so far. I think I might also allow the user to view the whole decimal expansion all at once to better see and explore patterns in the expansions. I hope to make an explanation in the website itself, so that the user can understand what's happening in the app.
+I hope to eventually support endless scrolling, so that the user can scroll arbitrarilly far along the fraction without needing a limit as it is required so far. I think I might also allow the user to view the whole decimal expansion all at once to better see and explore patterns in the expansions. I hope to make an explanation in the website itself, so that the user can understand what's happening in the app.
