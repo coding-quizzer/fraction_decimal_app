@@ -6,12 +6,13 @@ Fraction Decimal Converter is a program that prints out the decimal representati
 
 This project can be viewed at https://main--fraction-decimal-app.netlify.app/.
 
-![initial_view]
+![initial_view](https://github.com/coding-quizzer/fraction_decimal_app/blob/feature/create-read-me/docs/initial_view.png?raw=true)
 
 Type in a fraction at the top of the screen and click calculate to see the decimal expansion (note: this app does not currently support complex fractions - fractions where the numerator (the top number) is larger than the denominator (the bottom number). If you hover your mouse pointer over digit after the decimal point, a fraction will be displayed as a tooltip.
-![view_fraction]
+![view_fraction](https://github.com/coding-quizzer/fraction_decimal_app/blob/feature/create-read-me/docs/initial_view.png?raw=true)
 
 If you calculate the decimal expansion of that new fraction, the expansion will include the original expansion starting with that digit.
+![new_fraction](https://github.com/coding-quizzer/fraction_decimal_app/blob/feature/create-read-me/docs/new_fraction.png?raw=true)
 
 ## Dependencies
 
