@@ -7,6 +7,7 @@
   }
 
   .github-darkmode {
+    display: inherit;
     width: 40px;
     height: 40px;
   }
@@ -16,12 +17,15 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .github-lightmode {
-    width: 40px;
-    height: 40px;
-  }
+  #main-footer {
+    .github-lightmode {
+      display: inherit;
+      width: 40px;
+      height: 40px;
+    }
 
-  .github-darkmode {
-    display: none;
+    .github-darkmode {
+      display: none;
+    }
   }
 }
