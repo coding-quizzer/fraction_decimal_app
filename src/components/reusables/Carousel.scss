@@ -50,7 +50,7 @@
   opacity: 0.5;
 
   &:hover {
-    color: black;
+    color: white;
     opacity: 1;
   }
 
@@ -63,5 +63,9 @@
   .left-arrow,
   .right-arrow {
     background-color: var(--main-blue-light);
+
+    &:hover {
+      color: black;
+    }
   }
 }
