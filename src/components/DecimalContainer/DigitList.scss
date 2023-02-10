@@ -13,3 +13,9 @@
     font-size: 20px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .initial-decimal {
+    color: black;
+  }
+}

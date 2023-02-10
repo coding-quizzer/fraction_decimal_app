@@ -16,7 +16,12 @@ const defaultDigits = [
   <NumberContainer key="initial-0" width={36}>
     0
   </NumberContainer>,
-  <NumberContainer key="initial-decimal" width={36} background="white">
+  <NumberContainer
+    className="initial-decimal"
+    key="initial-decimal"
+    width={36}
+    background="white"
+  >
     .
   </NumberContainer>,
 ];

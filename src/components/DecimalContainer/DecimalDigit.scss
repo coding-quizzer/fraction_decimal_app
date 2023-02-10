@@ -2,7 +2,7 @@
   font-size: 20px;
   color: black;
   &:hover {
-    background-color: rgb(200, 225, 235);
+    background-color: hsl(197, 47%, 45%);
     cursor: default;
   }
 
@@ -47,5 +47,11 @@
       color: white;
       text-align: center;
     }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .decimal-digit:hover {
+    background-color: hsl(197, 47%, 85%);
   }
 }

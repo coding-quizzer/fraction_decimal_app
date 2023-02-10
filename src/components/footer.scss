@@ -6,8 +6,22 @@
     color: hsl(0, 0%, 0%, 70%);
   }
 
-  img {
+  .github-darkmode {
     width: 40px;
     height: 40px;
+  }
+  .github-lightmode {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .github-lightmode {
+    width: 40px;
+    height: 40px;
+  }
+
+  .github-darkmode {
+    display: none;
   }
 }

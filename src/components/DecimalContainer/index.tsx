@@ -24,7 +24,8 @@ export default function DecimalContainer(props: DecimalContainerProps) {
   useEffect(() => {
     setInputFraction(props.fraction);
     setCalculatedFraction(props.fraction);
-  }, [props.fraction[0], props.fraction[1]]);
+    console.log("rerender fraction");
+  }, [props.fraction]);
 
   useDebounce(() =>
     setCalculatedFraction((prev) => [

@@ -32,7 +32,8 @@ const Footer = () => {
         ref={refs.setReference}
         {...getReferenceProps}
       >
-        <img src="github-mark.svg"></img>
+        <img className="github-lightmode" src="github-mark.svg"></img>
+        <img className="github-darkmode" src="github-mark-white.svg"></img>
       </a>
     </footer>
   );

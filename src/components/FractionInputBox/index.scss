@@ -5,7 +5,7 @@
   height: 6%;
   padding: 0.5em;
   margin-bottom: 2em;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
   &--textboxes {
     display: flex;
     height: 100%;
@@ -24,14 +24,27 @@
     display: inline-flex;
     max-width: fit-content;
     border-radius: 5px;
-    background-color: rgb(216, 241, 251);
+    background-color: var(--main-blue-dark);
   }
 
   button {
     height: 30px;
     align-self: center;
-    background-color: rgb(216, 241, 251);
+    background-color: var(--main-blue-dark);
     border-radius: 5px;
     padding: 0.5em;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .fraction-input {
+    border-color: black;
+    input {
+      background-color: var(--main-blue-light);
+    }
+
+    button {
+      background-color: var(--main-blue-light);
+    }
   }
 }
